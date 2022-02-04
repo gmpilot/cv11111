@@ -22,8 +22,10 @@ body{
     float: left;
 }
 .profile-image:hover {
-transform:scale(1.5);
-    translation:0.4s;
+transform:scale(1.1);
+    translation:3.4s;
+    transform: rotated (360deg);
+    
 }
 .header-bio{
     float: left;
