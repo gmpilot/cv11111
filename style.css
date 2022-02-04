@@ -21,6 +21,10 @@ body{
     border-radius: 50%;
     float: left;
 }
+.profile-image:hover {
+transform:scale(1.5);
+    translation:0.4s;
+}
 .header-bio{
     float: left;
     padding: 30px;
