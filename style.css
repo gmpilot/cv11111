@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: silver;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*Starting Header*/
+.container{
+    background-color: #e0e0e0;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 150px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: darkcyan;
+}
+.header-contact{
+    float: right;
+    padding: 30px; 
+}
+.header-contact a{
+    color: teal;
+    font-size: small;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+/* Starting Main */
+
+/*Personal section*/
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px:
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: 0px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*Education Section*/
+.edu-tem-left{
+    float: left;
+    width: 45%;
+}
+.edu-tem-right{
+    float: right;
+    width: 45%;
+}
+.fontsize{
+    font-size: smaller;
+}
+.edu-tem-left a{
+    text-decoration: none;
+}
+.edu-tem-left a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.edu-tem-right a{
+        text-decoration: none;
+}
+.edu-tem-right a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+/*Footer started*/
+.bottom-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: small;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+    font-size: small;
+}
