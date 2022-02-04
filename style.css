@@ -23,8 +23,8 @@ body{
 }
 .profile-image:hover {
 transform:scale(1.1);
-    translation:3.4s;
-    transform: rotated (360deg);
+    transition: 3s;
+    transform: rotate(360deg);
     
 }
 .header-bio{
